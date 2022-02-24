@@ -1,0 +1,6 @@
+Paso 1: Instalar Python (Importante: Agregar al PATH)
+Paso 2: Instalar la librería "paho.mqtt" usando "py -m pip install paho-mqtt"
+Paso 3: Para ejecutar, ir a la ruta y escribir "python bd.py"
+Paso 4: Instalar la librería mysqlclient usando "py -m pip install mysql.connect" y "py -m pip install 		mysqlclient"
+
+Nota: Si presenta problemas al usar el comando 'python' o 'py', buscar alias en Windows y desactivar python y python 3.
