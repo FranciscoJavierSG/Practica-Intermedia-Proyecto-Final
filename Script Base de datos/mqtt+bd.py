@@ -4,7 +4,7 @@ import mysql.connector
 
 # Abrir conexión con bases de datos
 try:
-    db = mysql.connector.connect(host='localhost', database='mqtt', user='root', password='') 
+    db = mysql.connector.connect(host='localhost', database='mqtt', user='root', password='root') 
     # Hay que tener cuidado con la password, pues en algunos sistemas puede ser distinto.
     # Por ejemplo, al utilizar 'xampp', la password es '' (vacío) y al utilizar MAMP, la password es 'root
 except Exception as e:
